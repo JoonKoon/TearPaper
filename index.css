@@ -19,7 +19,7 @@ body {
     left: -1px;
     top: -1px;
     width: auto;
-    max-width: 420px;
+    max-width: 380px;
     height: auto;
     background: #f2f2f2;
     border-bottom-right-radius: 10px;
@@ -39,34 +39,6 @@ p {
     font-size: 16px;
     margin: 10px;
 }
-#github {
-  color:#3377ee;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 19px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration:none;
-}
-#net {
-  text-align:center;
-  white-space:nowrap;
-  font-size:19px;
-  background:rgba(0,0,0,0.1);
-  padding:8px 12px;
-  border-radius:8px;
-  display:block;
-  color:#888;
-}
-#net > span {
-  color:#3377ee;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration:none;
-}
 a {
     font-family: sans-serif;
     color: #444;
@@ -76,12 +48,11 @@ a {
 #site {
     float: left;
     margin: 10px;
-    color: #ff9900;
-  border-bottom: 1px dashed #ccc;
-  padding-bottom:3px
+    color: #38a;
+    border-bottom: 1px dashed #888;
 }
-#site:hover {
-    color: #ffaa11;
+#site: hover {
+    color: #7af;
 }
 #close {
     float: right;
@@ -92,7 +63,7 @@ a {
     position: absolute;
     right: 10px;
     bottom: 10px;
-    color: #4099ff;
-    border: 1px dashed #4099ff;
+    color: #167fc6;
+    border: 1px dashed #555;
     padding: 4px 8px;
 }
